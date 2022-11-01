@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe01bb397a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Pankaj</span><br>Kumar From Himachal</h1>
+
+        </div>
+    </div>
+</div>
+<!-----------about  - - - - -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/phone-background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there! My name is Pankaj Kumar. Currently I'm Pursuing my B.Tech in Artificial Intelligence & Machine Learning from Shoolini University.I am the ability to work in a Team or Individual. Can work well under pressure and make the best of any situation. Have excellent communication skills in English and Hindi. Planning capability with good time management. I am more Passionate about Youtube as a vlogger. Making videos on daily lifestyle. I put in 2 to 3 videos every week. I like to share my lifestyle with people.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('certificate')">Certificates</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+
+ <div class="tab-contents active-tab" id="skills">  
+    <ul>
+        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+        <li><span>Web Development</span><br>Web app Development, Web-sites etc.</li>
+        <li><span>Database</span><br>MySql</li>
+        <li><span>Language</span><br>C++, JAVA, Python</li>
+        <li><span>Social Media</span><br>Youtube, Content Creator etc.</li>
+    </ul>
+ 
+      </div>  
+<div class="tab-contents" id="certificate">
+    <ul>
+        <li><span>Coursera</span><br>Foundations Of User Experience(UX)Design</li>
+        <li><span>Coursera</span><br>Get Started With Figma</li>
+        <li><span>edX</span><br>Introduction to Data Science</li>
+        <li><span>Coursera</span><br>Artificial Intelligence on Microsoft Azure</li>
+        <li><span>TCS iON</span><br>DataPlus Overview Course</li>
+        <li><span>Coursera</span><br>Microsoft Azure Machine Learning</li>
+        <li><span>HackerRank</span><br>SQL (Basic)</li>
+        <li><span>IBM</span><br>Design Thinking</li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2020 - 2024</span><br>B.TECH CSE [Specialization in Artificial Intelligence & Machine Learning]</li>
+        <li><span>2020</span><br>Passed out 12th from HP Board with 70% Marks</li>
+        <li><span>2018</span><br>Passed out 10th from HP Board with 75% Marks</li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------services ------------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Websites</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Figma</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Front end Development</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+                <h2>Youtube</h2>
+                <p>Content Creator</p>
+                <a href="http://www.youtube.com/c/PankajAartiVlogs">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  -----------portfolio----------  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Youtube</h3>
+                    <p>VIDEO CREATOR</p>
+                    <a href="http://www.youtube.com/c/PankajAartiVlogs"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Youtube Clone</h3>
+                    <p>This is the youtube clone website from the web development cource by Pankaj Kumar</p>
+                    <a href="https://pankaj-kumar11.github.io/youtube/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>This is the E-commerce website from the web development cource by Pankaj Kumar</p>
+                    <a href=" https://pankaj-kumar11.github.io/RedStore/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pankajthakur13728@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pankaj-kumar-3098171b2"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/officialpankaj55/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.youtube.com/c/PankajAartiVlogs"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Pankaj. Made with <i class="fa-solid fa-heart"></i> by Pankaj Kumar</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";    
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";    
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw1R24B2iuVLRcw6GPIuH9pvnFQ3qJLYz7wGCkkMjb7Bfz3WS5mchmiPi03VkVL0_6g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
